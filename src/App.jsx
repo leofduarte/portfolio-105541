@@ -122,7 +122,7 @@ function App() {
     {
       title: "Eco-Exploradores",
       description:
-        "Eco-Exploradores is a website that aims to teach children about the history of the environment and how to protect it. It has a lot of fun activities like a horizontal parallax remembering some of the most historical moments of the planet, a quiz to test your level of sustentability and a game, for children to learn while having fun. I was responsible for doing the landing page, the horizontal parallax and , inserting the 3D elements in the website. It was a group project for the Laboratório Multimédia 3 course at the University of Aveiro.",
+        "Eco-Exploradores is a website that aims to teach children about the history of the environment and how to protect it. It has a lot of fun activities like a horizontal parallax (made using GSAP) remembering some of the most historical moments of the planet, a quiz to test your level of sustentability and a game, for children to learn while having fun. I was responsible for doing the landing page, the horizontal parallax and inserting 3D elements using Model-viewer in the website. It was a group project for the Laboratório Multimédia 3 course at the University of Aveiro.",
       imageUrl: [
         "./imgs/eco-exploradores/ee-1.png",
         "./imgs/eco-exploradores/ee-12.png",
@@ -150,7 +150,7 @@ function App() {
         "./imgs/go-chat/capa-gochat.png",
         "./imgs/go-chat/gochat-2.png", 
         "./imgs/go-chat/gochat-3.png", 
-        "./imgs/go-chat/gochat-4.png"
+        "./imgs/go-chat/gochat-4.png" 
       ],
       link: "",
       technology: ["Golang", "React", "TailwindCSS", "MySQL", "WebSockets"],
@@ -466,7 +466,7 @@ function App() {
             Communication Technologies at the University of Aveiro. I have a
             passion for challenges and find satisfaction untangling complex
             problems and turning them into solutions. Like that time that I
-            smaked my pc into the wall when a div was not centering, just kidding. At the end
+            smacked my pc into the wall when a div was not centering, just kidding. At the end
             of the day, when I look at the work that I've done, I feel that I
             did a good job trying my best to find the key to solve all the
             problems that come my way, one at a time. My thirst for knowledge
