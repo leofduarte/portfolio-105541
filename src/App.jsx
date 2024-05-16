@@ -28,6 +28,13 @@ import FirebaseIcon from "./imgs/firebase-icon.svg";
 import MySQL from "./imgs/mysql-icon.svg";
 import WebSocketIcon from "./imgs/websocket-icon.svg";
 import GsapIcon from "./imgs/gsap-icon.svg";
+import capa from "src/imgs/inHere/capa.png";
+import capa2 from "src/imgs/inHere/capa2.png";
+import Ih4 from "src/imgs/inHere/Ih-4.png";
+import Ih3 from "src/imgs/inHere/Ih-3.png";
+
+import leo from "src/imgs/leo.jpeg";
+
 
 function App() {
   const next = (websiteIndex) => {
@@ -75,10 +82,10 @@ function App() {
       description:
         "InHere is a geolocation web application created with the aim of integrating the digital and spatial experience. In a scenario where people are connected through their devices, the proposed web application not only allows social interaction based on location, but transcends physical barriers by giving users the ability to explore and visualize the space of others, even when spatially distant. This application was developed alone as part of the Tecnologias Avançadas Client-side course.",
       imageUrl: [
-        "src/imgs/inHere/capa.png",
-        "src/imgs/inHere/capa2.png",
-        "src/imgs/inHere/Ih-4.png",
-        "src/imgs/inHere/Ih-3.png",
+        capa,
+        capa2,
+        Ih3,
+        Ih4,
       ],
       technology: ["React", "TailwindCSS", "Firebase"],
       link: "asd",
@@ -432,7 +439,7 @@ function App() {
         <div className="w-1/2 transform overflow-hidden">
           <img
             className="w-full h-full object-cover rounded-3xl transition-all duration-500 ease-in-out transform hover:scale-110"
-            src={"src/imgs/leo.jpeg"}
+            src={leo}
             alt="Leandro Duarte"
           />
         </div>
