@@ -74,12 +74,17 @@ function App() {
     {
       title: "InHere",
       description:
-        "InHere is a geolocation web application created with the aim of integrating the digital and spatial experience. In a scenario where people are connected through their devices, the proposed web application not only allows social interaction based on location, but transcends physical barriers by giving users the ability to explore and visualize the space of others, even when spatially distant. This application was developed alone as part of the Tecnologias Avançadas Client-side course.",
+        "InHere is a geolocation web application created with the aim of integrating the digital and spatial experience. In a scenario where people are connected through their devices, the proposed web application not only allows social interaction based on location, but transcends physical barriers by giving users the ability to explore and visualize the space of others, even when spatially distant. It was used React, TailwindCSS and Firebase Firestore/ Storage/ Authentication. This application was developed alone as part of the Tecnologias Avançadas Client-side course. **This project was 'rewarded' with an invitation from the teacher to present it at the DigiMedia-organized event, Media Play 2024.**",
       imageUrl: [
-        "/imgs/inhere/capa.png",
-        "/imgs/inhere/capa2.png",
-        "/imgs/inhere/ih-3.png",
-        "/imgs/inhere/ih-4.png",
+        "./imgs/inHere/capa.png",
+        "./imgs/inHere/ih-1.png",
+        "./imgs/inHere/ih-2.png",
+        "./imgs/inHere/ih-3.png",
+        "./imgs/inHere/ih-4.png",
+        "./imgs/inHere/ih-5.png",
+        "./imgs/inHere/ih-8.png",
+        "./imgs/inHere/ih-9.png",
+        "./imgs/inHere/ih-10.png",
       ],
       technology: ["React", "TailwindCSS", "Firebase"],
       link: "",
@@ -88,7 +93,7 @@ function App() {
     },
     {
       title: "AstroData & AstroPrize",
-      description: "This is website 3",
+      description: "AstroData and AstroPrize are two interconnected platforms designed to revolutionize the planetarium experience. AstroData is an administrative platform that provides managers with comprehensive control over exhibitions, artworks, employees, NFC tags, and awards. On the other hand, AstroPrize is a mobile web application that offers users an interactive and educational journey through the planetarium. It features games that require users to interact with NFC tags located on each artwork. Completing these games rewards users with a “Shake”, a fun feature that allows them to win prizes by shaking their phone. The project, built with PHP, MySQL, JavaScript, and Bootstrap, seamlessly blends education, interaction, and excitement to transform the planetarium experience. In this project, my primary role was working on the AstroData administrative platform, where I was deeply involved in the development and management of various features. Additionally, I contributed to the AstroPrize mobile application, specifically assisting in the implementation of the “Shake” functionality using shake.js. This blend of responsibilities allowed me to gain a comprehensive understanding of the project and contribute significantly to its success.This project was developed as a group project for the Bases de Dados e Tecnologias Server-side course at the University of Aveiro. ",
       imageUrl: [
         "/imgs/astrodata-astroprize/capa-astro.png",
         "/imgs/astrodata-astroprize/astrodata-1.png",
@@ -109,7 +114,7 @@ function App() {
         "./imgs/astrodata-astroprize/astroprize-12.png",
         "./imgs/astrodata-astroprize/astroprize-13.png",
       ],
-      link: "  ",
+      link: "",
       technology: ["PHP", "Bootstrap 5", "MySQL", "JavaScript"],
       currentImageIndex: 0,
       state: "Finished",
@@ -117,9 +122,10 @@ function App() {
     {
       title: "Eco-Exploradores",
       description:
-        "Eco-Exploradores is a website that aims to teach children about the history of the environment and how to protect it. It has a lot of fun activities like a horizontal parallax remembering some of the most historical moments of the planet, a quiz to test your level of sustentability and a game, for children to learn while having fun. It was a group project for the Laboratório Multimédia 3 course at the University of Aveiro.",
+        "Eco-Exploradores is a website that aims to teach children about the history of the environment and how to protect it. It has a lot of fun activities like a horizontal parallax remembering some of the most historical moments of the planet, a quiz to test your level of sustentability and a game, for children to learn while having fun. I was responsible for doing the landing page, the horizontal parallax and , inserting the 3D elements in the website. It was a group project for the Laboratório Multimédia 3 course at the University of Aveiro.",
       imageUrl: [
         "./imgs/eco-exploradores/ee-1.png",
+        "./imgs/eco-exploradores/ee-12.png",
         "./imgs/eco-exploradores/ee-2.png",
         "./imgs/eco-exploradores/ee-3.png",
         "./imgs/eco-exploradores/ee-4.png",
@@ -139,8 +145,13 @@ function App() {
     {
       title: "GoChat",
       description:
-        "GoChat is a real-time chat application that allows users to create chat rooms and communicate with each other. It was developed as an individual project, with the purpose of testing new technologies and improving my skills. The project was developed using Golang for the backend, React for the frontend, and MySQL for the database. It also uses Websockets to enable real-time communication between users. The design is not pretty, as the main goal was to learn Golang and Websockets.",
-      imageUrl: ["url-to-image-3"],
+        "**The design is not pretty, as the main goal was to try to learn Golang and Websockets!**   GoChat is a real-time chat application that allows users to create chat rooms and communicate with his friends. It was developed as an individual project, with the purpose of testing new technologies and improving my skills. The project was developed using Golang for the backend, React for the frontend, and MySQL for the database. It also uses Websockets to enable real-time communication between users. ",
+      imageUrl: [
+        "./imgs/go-chat/capa-gochat.png",
+        "./imgs/go-chat/gochat-2.png", 
+        "./imgs/go-chat/gochat-3.png", 
+        "./imgs/go-chat/gochat-4.png"
+      ],
       link: "",
       technology: ["Golang", "React", "TailwindCSS", "MySQL", "WebSockets"],
       currentImageIndex: 0,
@@ -149,7 +160,7 @@ function App() {
     {
       title: "Top Indian Movies",
       description:
-        "This project involved the creation of a secure web platform designed to catalog and analyze a collection of Indian films from a given database. It includes a  user authentication system, complete with password encryption for added security. A reactive feedback mechanism has also been integrated, which alerts users to their interactions on the site, such as managing their favorites list. Proactive measures have been taken to protect the site against SQL injection and other security vulnerabilities. It also features a comment system with upvotes and downvotes, and the possibility of managing comment statuses (accepted, deleted or awaiting review). The project significantly strengthened my understanding of coding structure, especially the separation of static and dynamic content. This work was part of a mini-project for my Bases de Dados e Tecnologias Server-side course.",
+        "This project involved the creation of a secure web platform designed to catalog and analyze a   collection of Indian films from a given database. It includes a  user authentication system, complete with password encryption for added security. A reactive feedback mechanism has also been integrated, which alerts users to their interactions on the site, such as managing their favorites list. Proactive measures have been taken to protect the site against SQL injection and other security vulnerabilities. It also features a comment system with upvotes and downvotes, and the possibility of managing comment statuses (accepted, deleted or awaiting review). The project significantly strengthened my understanding of coding structure, especially the separation of static and dynamic content. This work was part of a mini-project for my Bases de Dados e Tecnologias Server-side course.",
       imageUrl: [
         "./imgs/mp-tim/tim-1.png",
         "./imgs/mp-tim/tim-2.png",
@@ -164,7 +175,7 @@ function App() {
     },
     {
       title: "Minimal Music Festival",
-      description: "Minimal Music Festival was a project made in the context of the Laboratório Multimédia 2 course at the University of Aveiro. The main goal was to create a website for a music festival, with a minimalist design and a focus on the user experience. The website includes a schedule of the festival, information about the artists, and a ticket purchase system. The project was developed using HTML, CSS, and JavaScript, with a focus on responsive design and accessibility. The first  Made by me: image 1, 4, 7.",
+      description: "Minimal Music Festival was a project made in the context of the Laboratório Multimédia 2 course at the University of Aveiro. The main goal was to create a website for a music festival, with a minimalist design and focus on the user experience. The website includes a schedule of the festival, information about the artists, a ticket purchase system, etc. The only page that has Javascript is the page 'Programa', where it has a mouseIn and mouseOut function that changes the background image and it's color gradient. The project was developed using HTML, CSS, and JavaScript, with a focus on responsive design and accessibility.",
       imageUrl: [
         "./imgs/mmfestival/mmf-1.png",
         "./imgs/mmfestival/mmf-2.png",
@@ -683,7 +694,7 @@ function App() {
                     href={website.link}
                     className={`text-blue-500 inline-block ${
                       website.link.trim() == ""
-                        ? "opacity-30 cursor-not-allowed"
+                        ? "hidden"
                         : "hover:underline"
                     }`}
                     onClick={(e) => {
@@ -693,13 +704,7 @@ function App() {
                     Visit website
                   </a>
 
-                  <span
-                    className={`${
-                      website.state == "Finished"
-                        ? "bg-green-300"
-                        : "bg-red-300"
-                    } p-2 rounded-lg text-xs `}
-                  >
+        <span className={`${website.state == "Finished" ? "bg-green-300" : "bg-red-300"} p-2 rounded-lg text-xs ml-auto`}>
                     {website.state}
                   </span>
                 </div>
