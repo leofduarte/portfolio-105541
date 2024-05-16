@@ -164,7 +164,7 @@ function App() {
     },
     {
       title: "Minimal Music Festival",
-      description: "descrição do mmf",
+      description: "Minimal Music Festival was a project made in the context of the Laboratório Multimédia 2 course at the University of Aveiro. The main goal was to create a website for a music festival, with a minimalist design and a focus on the user experience. The website includes a schedule of the festival, information about the artists, and a ticket purchase system. The project was developed using HTML, CSS, and JavaScript, with a focus on responsive design and accessibility. The first  Made by me: image 1, 4, 7.",
       imageUrl: [
         "./imgs/mmfestival/mmf-1.png",
         "./imgs/mmfestival/mmf-2.png",
