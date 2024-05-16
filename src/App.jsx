@@ -28,12 +28,6 @@ import FirebaseIcon from "./imgs/firebase-icon.svg";
 import MySQL from "./imgs/mysql-icon.svg";
 import WebSocketIcon from "./imgs/websocket-icon.svg";
 import GsapIcon from "./imgs/gsap-icon.svg";
-import capa from "src/imgs/inHere/capa.png";
-import capa2 from "src/imgs/inHere/capa2.png";
-import Ih4 from "src/imgs/inHere/Ih-4.png";
-import Ih3 from "src/imgs/inHere/Ih-3.png";
-
-import leo from "src/imgs/leo.jpeg";
 
 
 function App() {
@@ -82,13 +76,13 @@ function App() {
       description:
         "InHere is a geolocation web application created with the aim of integrating the digital and spatial experience. In a scenario where people are connected through their devices, the proposed web application not only allows social interaction based on location, but transcends physical barriers by giving users the ability to explore and visualize the space of others, even when spatially distant. This application was developed alone as part of the Tecnologias Avançadas Client-side course.",
       imageUrl: [
-        capa,
-        capa2,
-        Ih3,
-        Ih4,
+        "./imgs/inhere/capa.png",
+        "./imgs/inhere/capa2.png",
+        "./imgs/inhere/ih-3.png",
+        "./imgs/inhere/ih-4.png",
       ],
       technology: ["React", "TailwindCSS", "Firebase"],
-      link: "asd",
+      link: "",
       currentImageIndex: 0,
       state: "In development",
     },
@@ -96,24 +90,24 @@ function App() {
       title: "AstroData & AstroPrize",
       description: "This is website 3",
       imageUrl: [
-        "src/imgs/astrodata-astroprize/capa-astro.png",
-        "src/imgs/astrodata-astroprize/astrodata-1.png",
-        "src/imgs/astrodata-astroprize/astrodata-2.png",
-        "src/imgs/astrodata-astroprize/astrodata-3.png",
-        "src/imgs/astrodata-astroprize/astrodata-4.png",
-        "src/imgs/astrodata-astroprize/astroprize-1.png",
-        "src/imgs/astrodata-astroprize/astroprize-2.png",
-        "src/imgs/astrodata-astroprize/astroprize-3.png",
-        "src/imgs/astrodata-astroprize/astroprize-4.png",
-        "src/imgs/astrodata-astroprize/astroprize-5.png",
-        "src/imgs/astrodata-astroprize/astroprize-6.png",
-        "src/imgs/astrodata-astroprize/astroprize-7.png",
-        "src/imgs/astrodata-astroprize/astroprize-8.png",
-        "src/imgs/astrodata-astroprize/astroprize-9.png",
-        "src/imgs/astrodata-astroprize/astroprize-10.png",
-        "src/imgs/astrodata-astroprize/astroprize-11.png",
-        "src/imgs/astrodata-astroprize/astroprize-12.png",
-        "src/imgs/astrodata-astroprize/astroprize-13.png",
+        "./imgs/astrodata-astroprize/capa-astro.png",
+        "./imgs/astrodata-astroprize/astrodata-1.png",
+        "./imgs/astrodata-astroprize/astrodata-2.png",
+        "./imgs/astrodata-astroprize/astrodata-3.png",
+        "./imgs/astrodata-astroprize/astrodata-4.png",
+        "./imgs/astrodata-astroprize/astroprize-1.png",
+        "./imgs/astrodata-astroprize/astroprize-2.png",
+        "./imgs/astrodata-astroprize/astroprize-3.png",
+        "./imgs/astrodata-astroprize/astroprize-4.png",
+        "./imgs/astrodata-astroprize/astroprize-5.png",
+        "./imgs/astrodata-astroprize/astroprize-6.png",
+        "./imgs/astrodata-astroprize/astroprize-7.png",
+        "./imgs/astrodata-astroprize/astroprize-8.png",
+        "./imgs/astrodata-astroprize/astroprize-9.png",
+        "./imgs/astrodata-astroprize/astroprize-10.png",
+        "./imgs/astrodata-astroprize/astroprize-11.png",
+        "./imgs/astrodata-astroprize/astroprize-12.png",
+        "./imgs/astrodata-astroprize/astroprize-13.png",
       ],
       link: "  ",
       technology: ["PHP", "Bootstrap 5", "MySQL", "JavaScript"],
@@ -125,17 +119,17 @@ function App() {
       description:
         "Eco-Exploradores is a website that aims to teach children about the history of the environment and how to protect it. It has a lot of fun activities like a horizontal parallax remembering some of the most historical moments of the planet, a quiz to test your level of sustentability and a game, for children to learn while having fun. It was a group project for the Laboratório Multimédia 3 course at the University of Aveiro.",
       imageUrl: [
-        "src/imgs/eco-exploradores/ee-1.png",
-        "src/imgs/eco-exploradores/ee-2.png",
-        "src/imgs/eco-exploradores/ee-3.png",
-        "src/imgs/eco-exploradores/ee-4.png",
-        "src/imgs/eco-exploradores/ee-5.png",
-        "src/imgs/eco-exploradores/ee-6.png",
-        "src/imgs/eco-exploradores/ee-7.png",
-        "src/imgs/eco-exploradores/ee-8.png",
-        "src/imgs/eco-exploradores/ee-9.png",
-        "src/imgs/eco-exploradores/ee-10.png",
-        "src/imgs/eco-exploradores/ee-11.png",
+        "./imgs/eco-exploradores/ee-1.png",
+        "./imgs/eco-exploradores/ee-2.png",
+        "./imgs/eco-exploradores/ee-3.png",
+        "./imgs/eco-exploradores/ee-4.png",
+        "./imgs/eco-exploradores/ee-5.png",
+        "./imgs/eco-exploradores/ee-6.png",
+        "./imgs/eco-exploradores/ee-7.png",
+        "./imgs/eco-exploradores/ee-8.png",
+        "./imgs/eco-exploradores/ee-9.png",
+        "./imgs/eco-exploradores/ee-10.png",
+        "./imgs/eco-exploradores/ee-11.png",
       ],
       link: "",
       technology: ["HTML", "CSS", "JavaScript", "Model-Viewer", "GSAP"],
@@ -157,11 +151,11 @@ function App() {
       description:
         "This project involved the creation of a secure web platform designed to catalog and analyze a collection of Indian films from a given database. It includes a  user authentication system, complete with password encryption for added security. A reactive feedback mechanism has also been integrated, which alerts users to their interactions on the site, such as managing their favorites list. Proactive measures have been taken to protect the site against SQL injection and other security vulnerabilities. It also features a comment system with upvotes and downvotes, and the possibility of managing comment statuses (accepted, deleted or awaiting review). The project significantly strengthened my understanding of coding structure, especially the separation of static and dynamic content. This work was part of a mini-project for my Bases de Dados e Tecnologias Server-side course.",
       imageUrl: [
-        "src/imgs/mp-tim/tim-1.png",
-        "src/imgs/mp-tim/tim-2.png",
-        "src/imgs/mp-tim/tim-3.png",
-        "src/imgs/mp-tim/tim-4.png",
-        "src/imgs/mp-tim/tim-5.png",
+        "./imgs/mp-tim/tim-1.png",
+        "./imgs/mp-tim/tim-2.png",
+        "./imgs/mp-tim/tim-3.png",
+        "./imgs/mp-tim/tim-4.png",
+        "./imgs/mp-tim/tim-5.png",
       ],
       link: "",
       technology: ["PHP", "Bootstrap 4", "MySQL", "JavaScript"],
@@ -172,12 +166,12 @@ function App() {
       title: "Minimal Music Festival",
       description: "descrição do mmf",
       imageUrl: [
-        "src/imgs/mmfestival/mmf-1.png",
-        "src/imgs/mmfestival/mmf-2.png",
-        "src/imgs/mmfestival/mmf-3.png",
-        "src/imgs/mmfestival/mmf-4.png",
-        "src/imgs/mmfestival/mmf-5.png",
-        "src/imgs/mmfestival/mmf-6.png",
+        "./imgs/mmfestival/mmf-1.png",
+        "./imgs/mmfestival/mmf-2.png",
+        "./imgs/mmfestival/mmf-3.png",
+        "./imgs/mmfestival/mmf-4.png",
+        "./imgs/mmfestival/mmf-5.png",
+        "./imgs/mmfestival/mmf-6.png",
       ],
       link: "",
       technology: ["HTML", "Bootstrap 4", "JavaScript"],
@@ -439,7 +433,7 @@ function App() {
         <div className="w-1/2 transform overflow-hidden">
           <img
             className="w-full h-full object-cover rounded-3xl transition-all duration-500 ease-in-out transform hover:scale-110"
-            src={leo}
+            src="./imgs/leo.jpeg"
             alt="Leandro Duarte"
           />
         </div>
