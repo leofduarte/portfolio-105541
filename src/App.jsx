@@ -386,9 +386,9 @@ function App() {
                 >
                   My work
                 </button>
-                <button className="text-white flex items-center gap-2 hover:text-gray-400">
+                {/* <button className="text-white flex items-center gap-2 hover:text-gray-400">
                   Download resume <FontAwesomeIcon icon={faCircleDown} />
-                </button>
+                </button> */}
               </div>
             </div>
 
